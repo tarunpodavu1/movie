@@ -29,9 +29,7 @@ public class Review {
 	public void setBody(String body) {
 		this.body = body;
 	}
-	public Review(ObjectId id, String body) {
-		super();
-		this.id = id;
+	public Review(String body) {
 		this.body = body;
 	}
 	public Review() {
